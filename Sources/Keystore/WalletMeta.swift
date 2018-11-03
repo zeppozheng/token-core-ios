@@ -35,8 +35,8 @@ public struct WalletMeta {
   public var chain: ChainType?
   public let source: Source
   
-
-  var segWit = SegWit.none
+  //add public for zp
+  public var segWit = SegWit.none
 
   let timestamp: Double
   let version: String
